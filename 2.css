@@ -1,0 +1,15 @@
+.grid-container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+.grid-item {
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+  background-color: black;
+}
